@@ -22,7 +22,7 @@ print("My {} would cost ${:,.2f}".format(name, cost))
 # Aligning columns:
 numbers = [1, 19, 123, 456, -25]
 for number in numbers:
-    print("Number is {:>5}".format(number))
+    print("Number is {:>10}".format(number))
 
 # A version of the above loop using the enumerate function, useful when you want the index and value
 for i, number in enumerate(numbers):

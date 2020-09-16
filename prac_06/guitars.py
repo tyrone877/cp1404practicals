@@ -1,5 +1,6 @@
 from prac_06.guitar import Guitar
 
+
 def main():
     guitars = []
 
@@ -24,5 +25,6 @@ def main():
                   .format(i + 1, guitar, vintage_identifier))
         else:
             print("You do not own any guitars!")
+
 
 main()
